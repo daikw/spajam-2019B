@@ -6,6 +6,8 @@ import { Config, Nav, Platform } from 'ionic-angular';
 
 import { FirstRunPage } from '../pages';
 import { Settings } from '../providers';
+import firebase from "firebase";
+import { firebase_environment } from '../environments/dev';
 
 @Component({
   template: `<ion-menu [content]="content">
@@ -53,6 +55,7 @@ export class MyApp {
       this.splashScreen.hide();
     });
     this.initTranslate();
+    firebase.initializeApp(firebase_environment.config);
   }
 
   initTranslate() {
