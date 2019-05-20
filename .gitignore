@@ -1,20 +1,26 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
+# generals
 *~
 *.sw[mnpcod]
 *.log
 *.tmp
 *.tmp.*
 log.txt
+
+# editor preferences
 *.sublime-project
 *.sublime-workspace
 .vscode/
 npm-debug.log*
 
+# additionals
 .env.dev
 .env.prod
+.firebase/
 
+# ionic defaults
 .idea/
 .ionic/
 .sourcemaps/
@@ -33,6 +39,7 @@ plugins/ios.json
 www/
 $RECYCLE.BIN/
 
+# polluting files
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
