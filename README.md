@@ -10,6 +10,9 @@
 - テーマは当日に発表される
 
 # Technology Stack 🚧
+|分類|使用技術|
+|----|----|
+|バックエンド|Cloud Functions for Firebase (python)|
 
 # References 🚧
 [予選概要 ｜ SPAJAM2019公式サイト – 温泉でハッカソン](https://spajam.jp/2019/entry/)
